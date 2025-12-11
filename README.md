@@ -31,9 +31,17 @@ I enjoy learning new technologies, improving my skills every day, and taking on 
 /portfolio
 │── index.html
 │── style.css
-│── profile-pic.png
-│── resume.pdf
+│── Omkar_Shenwai_Resume.pdf
 └── assets/
+    │── EEG dep detect.png
+    │── FlipkartSentAnalz.png
+    │── github.png
+    │── leetcode-svgrepo-com.png
+    │── linkedin-svgrepo-com.png
+    │── Ntflixclone.png
+    │── portfolio-pic.png
+    │── portfolio-web.png
+
 '''
 
 
