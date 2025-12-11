@@ -27,13 +27,14 @@ I enjoy learning new technologies, improving my skills every day, and taking on 
 ---
 
 ## 📁 Folder Structure
-
+'''
 /portfolio
 │── index.html
 │── style.css
 │── profile-pic.png
 │── resume.pdf
 └── assets/
+'''
 
 
 ---
