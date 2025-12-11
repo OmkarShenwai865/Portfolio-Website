@@ -27,7 +27,8 @@ I enjoy learning new technologies, improving my skills every day, and taking on 
 ---
 
 ## 📁 Folder Structure
-'''
+
+```
 /portfolio
 │── index.html
 │── style.css
@@ -41,8 +42,8 @@ I enjoy learning new technologies, improving my skills every day, and taking on 
     │── Ntflixclone.png
     │── portfolio-pic.png
     │── portfolio-web.png
+```
 
-'''
 
 
 ---
