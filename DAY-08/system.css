@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
+}
+.solar-system{
+    position:relative;
+    width:800px;
+    height:800px;
+}
+.sun{
+    height:120px;
+    width:120px;
+    background: radial-gradient(circle,yellow,orange,red);
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 40px orange, 0 0 80px yellow;
+}
+.orbit{
+    position:absolute;
+    top:50%;
+    left:50%;
+    border: 1px dashed rgba(255,255,255,0.3);
+    border-radius:50%;
+    transform: translate(-50%,-50%);
+}
+.planet{
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(var(--distance)) translate (-50%,-50%);
+    animation-name: orbit;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+.mercury{
+    height:15px;
+    width:15px;
+    background-color: gray;
+    --distance:70px;
+    animation-duration:3s;
+}
+.venus{
+    height:25px;
+    width:25px;
+    background-color: yellow;
+    --distance:110px;
+    animation-duration:6s;
+}
+.earth{
+    height:30px;
+    width:30px;
+    background-color: blue;
+    --distance:160px;
+    animation-duration:9s;
+}
+.mars{
+    height: 22px;
+    width: 22px;
+    background-color: red;
+    --distance:210px;
+    animation-duration:12s;
+}
+.jupyter{
+    height:50px;
+    width:50px;
+    background-color: brown;
+    --distance:270px;
+    animation-duration:15s;
+}
+.saturn{
+    height:45px;
+    width:45px;
+    background-color: peru;
+    --distance:320px;
+    animation-duration:18s;
+}
+.uranus{
+    height: 40px;
+    width:40px;
+    background-color: lightblue;
+    --distance:370px;
+    animation-duration:21s;
+}
+@keyframes orbit{
+    from{
+        transform: rotate(0deg) translateX(var(--distance)) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(var(--distance)) rotate(-360deg);
+    }
+}
+
+/* ORBIT RING SIZES */
+.mercury-orbit{
+    width: 150px;
+    height:150px;
+}
+.venus-orbit{
+    width:230px;
+    height:230px;
+}
+.earth-orbit{
+    width:320px;
+    height:320px;
+}
+.mars-orbit{
+    width:410px;
+    height:410px;
+}
+.jupyter-orbit{
+    width: 540px;
+    height:540px;
+}
+.saturn-orbit{
+    width: 640px;
+    height:640px;
+}
+.uranus-orbit{
+    width:740px;
+    height:740px;
+}

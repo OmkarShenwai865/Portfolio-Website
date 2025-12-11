@@ -1,0 +1,23 @@
+#container{
+height: 240px;
+width : 300px;
+background-color: rgb(221, 47, 47);
+position:relative;
+}
+#rectangle{
+height: 120px;
+width:300px;
+background-color: blue;
+position:absolute;
+top:60px;
+}
+#circle{
+height:100px;
+width: 100px;
+background-color: #ffffff;
+border-radius: 50%;
+position: absolute;
+left:50%;
+top:50%;
+transform : translate(-50%,-50%);
+}

@@ -1,0 +1,114 @@
+/* Tag Element Selector */
+/* h1{
+    background-color:chartreuse
+}
+ul{
+    background-color: brown;
+} */
+
+
+/* ID based Selection */
+/* #first{
+    background-color: darkcyan;
+}
+#second{
+    background-color: crimson;
+} */
+
+/* Class Based Selection */
+/* .one{
+    background-color: cornflowerblue;
+}
+.two{
+    background-color: darkviolet;
+} */
+
+/* Group Based Selection */
+/* h1, .one{
+    background-color: darkgreen;
+}
+
+h2, #first{
+    background-color: chocolate;
+} */
+/* rgb - red green blue  */
+/* rgba - red green blue alpha(apha represents
+transparency* it represenst 4 byte memory/
+/* each parameter(r,g,b ) defines color intensity
+b/w 0 to 255 each of 11 byte so total 3 byte
+*/
+
+
+/* h1{
+    background-color:rgb(65, 161, 139)
+}
+/* h2{
+    background-color:rgba(91, 109, 4, 0.691)
+} */
+/* h2{
+    background-color: hsl(120,100%,50%);
+}
+ul{
+    background-color: hsla(0,50%,50%,0.5);
+}
+/* #92a29e represents a hexadecimal vlue */
+/* li{
+
+    background-color:#92a29e ;
+}   */
+
+h1{
+    font-size: 80px;
+}
+ul{
+    font-size: 20px;
+} 
+/* em represenst that its 2 times of its parent 
+font size here */
+li{
+    font-size: 2em;
+}
+html{
+    font-size: 25px;
+}
+/* rem represenst that its 2 times of root
+font size here(root ius always HTML */
+
+/* h2{
+    font-size: 2rem;
+} */
+
+/* vw represensts viewport width like with respect to
+full width of website the particular text fontsize is
+1% of full width here */
+/* h2{
+    font-size: 1vw;
+} */
+
+/* vh represensts viewport height like with respect to
+full height of website the particular text fontsize is
+5% of full height here */
+
+/* font weight lies from 100 to 900 basically about its 
+thickness */
+/* h2{
+    font-size: 5vh;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 100;
+    font-style: italic;
+} */
+/* this represents percentage unit like here 
+li fontisze is 50% of its parent font size(here partent
+represents 1 level above of it */
+li{
+    font-size: 50%;
+ } 
+
+
+/* taken from Google Fonts */
+h2{
+    font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}

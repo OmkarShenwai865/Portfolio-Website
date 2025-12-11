@@ -1,0 +1,37 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height:600px;
+    flex-direction: row;
+    justify-content :center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap:10px;
+}
+/* justify centent axis,main axis ke around kam karta hai
+main axis decide kon karega, aapka flex direction
+
+align-items works around cross axis*/
+.box{
+    height:100px;
+    width:100px;
+}
+.first{
+ background-color: aqua;   
+ flex-basis: 200px;
+ /* flex-grow:1 */
+}
+.second{
+    background-color: brown;
+    flex-shrink: 4;
+    /* flex-grow:2; */
+}
+.third{
+    background-color: crimson;
+    /* flex-grow:3 */
+    align-self: flex-start;
+}
+.fourth{
+    background-color: green;
+    /* flex-grow:4; */
+}

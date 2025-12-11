@@ -1,0 +1,34 @@
+h1{
+    background-color: blueviolet;
+    height:100px;
+    width:1200px;
+    border-width:20px;
+    border-style: solid;
+    border-color:chartreuse;
+    padding : 10px;
+    margin: 20px;
+    /*
+    
+    */
+}
+h2{
+    background-color: orangered;
+    height:250px;
+    width:250px;
+    border: 10px solid greenyellow; 
+    /* border: 10px 20px 30px 40px;
+    border-color:brown;
+    border-style:solid; */
+    padding : 10px 15px 25px 30px;
+     margin : 10px 15px 20px 20px; 
+     /* margin-left: 50px */
+}
+p{
+ background-color: rgb(30, 147, 210);
+ height:200px;
+ width: 400px;
+ border-top : 10px solid black;
+  border-right : 10px solid darkblue; 
+ padding : 10px;
+margin:35px;
+}

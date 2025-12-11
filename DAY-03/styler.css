@@ -1,0 +1,29 @@
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+
+h2{
+    background-color: darkgreen;
+    position:relative;
+    left: 100px;
+}
+h3{
+    background-color: darkorange;
+    position : fixed;
+    top:0px;
+    left:50px;
+}
+h4{
+    background-color: rgb(147, 30, 210);
+    position: sticky;
+    top:10px;        
+}
+p{
+    background-color: crimson;
+    position:absolute;
+    top:0px;
+    left:50px;
+    margin:0px;
+    z-index:10;
+}
